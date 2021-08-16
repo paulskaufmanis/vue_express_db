@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 
-// Middleware
+// Middlewar
 app.use(bodyParser.json());
 app.use(cors());
 
